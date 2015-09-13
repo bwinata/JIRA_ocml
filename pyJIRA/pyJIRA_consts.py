@@ -1,0 +1,16 @@
+#!/bin/python
+
+JIRA_REST_PATH = "/rest/api/2/"
+
+JIRA_SUCCESS = 0
+JIRA_ERROR_CREDENTIALS_MISSING = 100
+JIRA_ERROR_CREDENTIALS_INVALID = 200
+
+JIRA_BUG            = 0
+JIRA_NEW_FEATURE    = 1
+JIRA_IMPROVEMENT    = 2
+JIRA_EPIC           = 3
+JIRA_STORY          = 4
+JIRA_RMA            = 5
+JIRA_TEST           = 6
+JIRA_TASK           = 7
